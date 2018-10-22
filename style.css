@@ -1,13 +1,13 @@
 @font-face
 {
     font-family: "Founders";
-    src: url(./FoundersGroteskMono.ttf);
+    src: url(./font/FoundersGroteskMono.ttf);
 }
 
 @font-face
 {
     font-family: "Styrene";
-    src: url(./StyreneB.ttf);
+    src: url(./font/StyreneB.ttf);
 }
 
 html
