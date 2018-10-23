@@ -46,6 +46,12 @@ a
     text-decoration: none;
 }
 
+img
+{
+    width: 170px;
+    margin-left: 40px;
+}
+
 .assignment
 {
     border-radius: 15px;
@@ -60,6 +66,16 @@ a
 
 .assignment:hover
 {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.member
+{
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    margin: 0px 20px 20px 0px;
+    display: inline-block;
     background: rgba(255, 255, 255, 0.4);
 }
 
