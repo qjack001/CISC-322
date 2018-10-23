@@ -40,6 +40,12 @@ p
     font-size: 0.9rem;
 }
 
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+
 .assignment
 {
     border-radius: 15px;
@@ -77,12 +83,6 @@ p
     display: none;
 }
 
-a
-{
-    color: #000;
-    text-decoration: none;
-}
-
 .link
 {
     display: inline-block;
@@ -95,4 +95,22 @@ a
 .link:hover
 {
     background: rgba(255, 255, 255, 0.4);
+}
+
+@media only screen and (max-width: 570px)
+{
+    h1
+    {
+        float: none;
+    }
+    
+    html
+    {
+        padding: 10px;
+    }
+    
+    .assignment
+    {
+        margin-left: calc(50% - 125px);
+    }
 }
