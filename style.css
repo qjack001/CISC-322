@@ -113,7 +113,7 @@ img
     background: rgba(255, 255, 255, 0.4);
 }
 
-@media only screen and (max-width: 570px)
+@media only screen and (max-width: 580px)
 {
     h1
     {
@@ -125,7 +125,7 @@ img
         padding: 10px;
     }
     
-    .assignment
+    .assignment, .member
     {
         margin-left: calc(50% - 145px);
     }
